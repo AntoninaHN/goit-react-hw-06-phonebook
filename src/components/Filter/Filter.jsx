@@ -19,7 +19,7 @@ const Filter = () => {
           value={value}
           onChange={onChange}
           className={styles.input}
-          placeholder="find name..."
+          placeholder="Find name"
         />
       </label>
     </div>

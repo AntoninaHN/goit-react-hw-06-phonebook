@@ -2,13 +2,19 @@
   display: flex;
   justify-content: center;
 }
-
+.list_ul{
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .list {
   margin-right: 15px;
-  display: flex;
-  justify-content: center;
+  display: block; 
+
 }
 .button {
+  display: inline-block;
   padding: 10px 7px 10px 7px;
   background-color: #ff69b4;
   border: 1px solid #ff69b4;
